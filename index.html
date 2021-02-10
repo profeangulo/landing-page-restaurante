@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- El Head controla el funcionamiento global de la página -->
+    <head>
+        <!-- Title controla el título de la página -->
+        <title>Proyecto Landing Page - Maquetación Web</title>
+        
+        <!--Meta controla los metadatos y las metafunciones de la página-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
+        <meta title="Proyecto Landing Page - Maquetación Web">
+        
+        <!-- Link controla el enlace a archivos CSS y el favicon -->
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="estilo.css">
+        
+        <!-- Llamar a Google Fonts > Rubik -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <!-- Llamado a librería de Íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    
+    <!-- El Body controla el contenido de la página -->
+    <body>
+        <header>
+            <article>
+                <figure id="logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg">
+                    </a>
+                </figure>
+                
+                <nav id="menu-principal">
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#suscribe">Suscribe</a>
+                </nav>
+                
+                <nav id="nav-registro">
+                    <a data-fancybox data-src="#sign-in" href="javascript:;">Sign In</a>
+                    <a data-fancybox data-src="#sign-up" href="javascript:;">Sign Up</a>
+                </nav>
+            </article>
+        </header>
+        
+        <aside id="menu-moviles">
+            <a href="#" id="abrir-menu">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a href="#" id="cerrar-menu">
+                <i class="fas fa-times"></i>
+            </a>
+           
+            <article>
+                <nav id="menu-principal-mobile">
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#suscribe">Suscribe</a>
+                </nav>
+                
+                <nav id="nav-registro-mobile">
+                    <a data-fancybox data-src="#sign-in" href="javascript:;">Sign In</a>
+                    <a data-fancybox data-src="#sign-up" href="javascript:;">Sign Up</a>
+                </nav>
+            </article>
+        </aside>
+        
+        <aside id="boton-contacto">
+            <a href="https://api.whatsapp.com/send?phone=573146089813" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+        
+        <main>
+            <section id="about">
+                <article>
+                    <div id="about-info">
+                        <h1>Want anything to be easy with <strong>LaslesVPN</strong>.</h1>
+                        <h5>Provide a network for all your needs with ease and fun using <strong>LaslesVPN</strong> discover interesting features from us.</h5>
+                        <a href="#">Get Started</a>
+                    </div>
+                    
+                    <figure>
+                        <img src="img/grafico-01.svg">
+                    </figure>
+                </article>
+            </section>
+            
+            <section id="indicadores">
+                <article>
+                    <figure>
+                        <img src="img/icono-01.svg">
+                        <div class="info-indicador">
+                            <h6>90+</h6>
+                            <p>Users</p>
+                        </div>
+                    </figure>
+                    
+                    <hr class="separador-indicador">
+                    
+                    <figure>
+                        <img src="img/icono-02.svg">
+                        <div class="info-indicador">
+                            <h6>30+</h6>
+                            <p>Locations</p>
+                        </div>
+                    </figure>
+                    
+                    <hr class="separador-indicador">
+                    
+                    <figure>
+                        <img src="img/icono-03.svg">
+                        <div class="info-indicador">
+                            <h6>50+</h6>
+                            <p>Servers</p>
+                        </div>
+                    </figure>
+                </article>
+            </section>
+            
+            <section id="features">
+                <article>
+                    <figure>
+                        <img src="img/grafico-02.svg">
+                    </figure>
+                    
+                    <div id="features-info">
+                        <h2>We Provide Many Features You Can Use</h2>
+                        <h4>You can explore the features that we provide with fun and have their own functions each feature.</h4>
+                        
+                        <p><span></span> Powerfull online protection.</p>
+                        <p><span></span> Internet without borders.</p>
+                        <p><span></span> Supercharged VPN.</p>
+                        <p><span></span> No specific time limits.</p>
+                    </div>
+                </article>
+            </section>
+            
+            <section id="pricing">
+                <article id="choose">
+                    <h3>Choose Your Plan</h3>
+                    <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+                </article>
+                
+                <article id="plans">
+                    <figure>
+                        <img src="img/plans.svg">
+                        <h3>Free Plan</h3>
+                        
+                        <div class="plan-features">
+                            <p><span></span> Unlimited Bandwitch</p>
+                            <p><span></span> Encrypted Connection</p>
+                            <p><span></span> No Traffic Logs</p>
+                            <p><span></span> Works on All Devices</p>
+                        </div>
+                        
+                        <h5>Free</h5>
+                        <a href="#">Select</a>
+                    </figure>
+                    
+                    <figure>
+                        <img src="img/plans.svg">
+                        <h3>Standard Plan</h3>
+                        
+                        <div class="plan-features">
+                            <p><span></span> Unlimited Bandwitch</p>
+                            <p><span></span> Encrypted Connection</p>
+                            <p><span></span> Yes Traffic Logs</p>
+                            <p><span></span> Works on All Devices</p>
+                            <p><span></span> Connect Anyware</p>
+                        </div>
+                        
+                        <h5>$9 <span>/ mo</span></h5>
+                        <a href="#">Select</a>
+                    </figure>
+                    
+                    <figure>
+                        <img src="img/plans.svg">
+                        <h3>Premium Plan</h3>
+                        
+                        <div class="plan-features">
+                            <p><span></span> Unlimited Bandwitch</p>
+                            <p><span></span> Encrypted Connection</p>
+                            <p><span></span> Yes Traffic Logs</p>
+                            <p><span></span> Works on All Devices</p>
+                            <p><span></span> Connect Anyware</p>
+                            <p><span></span> Get New Features</p>
+                        </div>
+                        
+                        <h5>$12 <span>/ mo</span></h5>
+                        <a href="#">Select</a>
+                    </figure>
+                </article>
+            </section>
+            
+            <section id="huge-global">
+                <article id="huge">
+                    <h3>Huge Global Network of Fast VPN</h3>
+                    <p>See <strong>LaslesVPN</strong> everywhere to make it easier for you when you move locations.</p>
+                </article>
+                
+                <article id="maps">
+                    <figure>
+                        <div class="blocks" id="block-01">
+                            <img src="img/location.svg" id="loc-01">
+                            <span id="txt-01">Alaska</span>
+                        </div>
+                        
+                        <div class="blocks" id="block-02">
+                            <img src="img/location.svg" id="loc-02">
+                            <span id="txt-02">Seattle</span>
+                        </div>
+                        
+                        <div class="blocks" id="block-20">
+                            <img src="img/location.svg" id="loc-20">
+                            <span id="txt-20">China</span>
+                        </div>
+                    </figure>
+                </article>
+                
+                <article id="logos">
+                    <img src="img/netflix.svg">
+                    <img src="img/netflix.svg">
+                    <img src="img/netflix.svg">
+                    <img src="img/netflix.svg">
+                    <img src="img/netflix.svg">
+                </article>
+            </section>
+            
+            <section id="testimonials">
+                <article id="trusted">
+                    <h4>Trusted by Thousands of Happy Customer</h4>
+                    <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
+                </article>
+                
+                <article id="personas" class="slick-personas">
+                    <div class="box-persona">
+                        <div class="info-persona">
+                            <img src="img/foto-persona.jpg">
+                            <p class="nombre-persona">Viezh Robert</p>
+                            <p class="lugar-persona">Warsaw, Poland</p>
+                        </div>
+                        
+                        <div class="puntaje-persona">
+                            <p class="num-puntaje">4.5</p>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+                    </div>
+                    
+                    <div class="box-persona">
+                        <div class="info-persona">
+                            <img src="img/foto-persona.jpg">
+                            <p class="nombre-persona">Viezh Robert</p>
+                            <p class="lugar-persona">Warsaw, Poland</p>
+                        </div>
+                        
+                        <div class="puntaje-persona">
+                            <p class="num-puntaje">4.5</p>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+                    </div>
+                    
+                    <div class="box-persona">
+                        <div class="info-persona">
+                            <img src="img/foto-persona.jpg">
+                            <p class="nombre-persona">Viezh Robert</p>
+                            <p class="lugar-persona">Warsaw, Poland</p>
+                        </div>
+                        
+                        <div class="puntaje-persona">
+                            <p class="num-puntaje">4.5</p>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+                    </div>
+                    
+                    <div class="box-persona">
+                        <div class="info-persona">
+                            <img src="img/foto-persona.jpg">
+                            <p class="nombre-persona">Viezh Robert</p>
+                            <p class="lugar-persona">Warsaw, Poland</p>
+                        </div>
+                        
+                        <div class="puntaje-persona">
+                            <p class="num-puntaje">4.5</p>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</p>
+                    </div>
+                </article>
+            </section>
+            
+            <section id="suscribe">
+                <article>
+                    <div id="info-suscribe">
+                        <h6>Subscribe Now for Get Special Features!</h6>
+                        <p>Let's subscribe with us and find the fun.</p>
+                    </div>
+                    
+                    <a data-fancybox data-src="#sign-up" href="javascript:;">Subscribe Now</a>
+                </article>
+            </section>
+        </main>
+        
+        <footer>
+            <article>
+                <figure id="info-footer">
+                    <img src="img/logo.svg">
+                    <p><strong>LaslesVPN</strong> is a private virtual network that has unique features and has high security.</p>
+                    
+                    <nav id="menu-redes">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        
+                        <a href="#" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        
+                        <a href="https://goo.gl/maps/2C6K7Fo2kU4yCXSh8" target="_blank">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                    </nav>
+                    
+                    <p>© 2020 <strong>LaslesVPN</strong></p>
+                </figure>
+                
+                <nav id="product" class="menu-footer">
+                    <h6>Product</h6>
+                    <a href="#">Download</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Locations</a>
+                    <a href="#">Server</a>
+                    <a href="#">Countries</a>
+                    <a href="#">Blog</a>
+                </nav>
+                
+                <nav id="engage" class="menu-footer">
+                    <h6>Engage</h6>
+                    <a href="#">LaslesVPN ?</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Tutorials</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </nav>
+                
+                <nav id="earn" class="menu-footer">
+                    <h6>Engage</h6>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Become Partner</a>
+                </nav>
+            </article>
+        </footer>
+        
+        <form id="sign-up" action="" method="post" style="display: none;width:100%;max-width:660px;">
+            <h2 class="mb-3">
+                Sign Up
+            </h2>
+            <p>
+                The first focusable element in the modal gets the focus for better accessibility.
+                <br />
+                The script traps focus within the modal to disable the user to access the content behind it. Focus is restored to last focused element when modal closes.
+            </p>
+            <p>
+                <input type="text" value="" name="hi1" class="form-control" placeholder="Name" />
+            </p>
+            <p>
+                <input type="text" value="" name="hi2" class="form-control" placeholder="Email" />
+            </p>
+            <p class="mb-0 text-right">
+                <input data-fancybox-close type="button" class="btn btn-primary" value="Register" />
+            </p>
+        </form>
+        
+        <form id="sign-in" action="" method="post" style="display: none;width:100%;max-width:660px;">
+            <h2 class="mb-3">
+                Sign In
+            </h2>
+            <p>
+                <input type="text" value="" name="hi1" class="form-control" placeholder="Username" />
+            </p>
+            <p>
+                <input type="text" value="" name="hi2" class="form-control" placeholder="Password" />
+            </p>
+            <p class="mb-0 text-right">
+                <input data-fancybox-close type="button" class="btn btn-primary" value="Log In" />
+            </p>
+        </form>
+        
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        
+        <!-- Slick Slider -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+        <!-- FancyApps - Fancybox -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        
+        <!-- 3°: Activación de librerías -->
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
